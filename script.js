@@ -24,19 +24,20 @@ const page3Message = `Alam mo, ate Zia, I really enjoy playing with you. If I'm 
 It's not like I'm comparing her to you, but I just want to point out what I feel when I'm with you. 
 It's a different feeling that I'm not familiar with. Kaya siguro I want to be around you.`
 
-const page3Message =`Alam mo ba, hindi na rin ako naghahanap ng mag rarate sakin sa ML HAHAHAHA. Sabi mo kasi selosa ka, 
+const page4Message =`Alam mo ba, hindi na rin ako naghahanap ng mag rarate sakin sa ML HAHAHAHA. Sabi mo kasi selosa ka, 
 and since then hindi na talaga ako tumambay sa global chat para maghanap ng kausap and mag rarate.
 Hindi na rin ako nag mamasturbate, I currently have a 2 days streak mwehehehe. Sana proud ka sakin. :>
 
 Nag oopen na nga lang ako ng ML to check if nag online ka ba or not hahaha...
 Yun lang po ate... Sana po makauwi ka nang safe hehe.`
+
 pages.push(page2Message,page3Message,page4Message);
 
 const BGM_FILE = "bgm.mp3";
 const BGM_SHOULD_PLAY_KEY = "letter_bgm_should_play";
 const BGM_TIME_KEY = "letter_bgm_time";
 
-const TYPE_SPEED = 60; // bigger = slower
+const TYPE_SPEED = 50; // bigger = slower
 
 
 let currentPage = 0;
