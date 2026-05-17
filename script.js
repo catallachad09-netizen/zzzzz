@@ -12,12 +12,14 @@ and I just can't help but want to spend more time with you... I know it's really
 
 `];
 
-const page2Message ='' 
-const page3Message =''
+const page2Message =`Perchance, may you reconsider your decision to cut contact with me?
+I know you said you want to focus on yourself, and I respect that, but I just want to be there for you as a friend, if not more...
+I want to get to know you more as a person, and develop a deeper connection with you...
 
-const page4Message =''
+I never went through a day without thinking of you since we started talking, and I don't think I can just stop thinking about you all of a sudden... 
+I know it's really selfish of me to say this, but can you still consider talking to me? I promise I won't be a bother, and I'll respect your boundaries...` 
 
-pages.push(page2Message, page3Message, page4Message);
+pages.push(page2Message);
 
 const BGM_FILE = "bgm.mp3";
 const BGM_SHOULD_PLAY_KEY = "letter_bgm_should_play";
